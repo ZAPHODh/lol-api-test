@@ -1,0 +1,15 @@
+export const regionMap: { [key: string]: Region } = {
+    BR1: 'americas',
+    EUN1: 'europe',
+    EUW1: 'europe',
+    LA1: 'americas',
+    LA2: 'americas',
+    NA1: 'americas',
+    OC1: 'asia',
+    RU1: 'europe',
+    TR1: 'europe',
+    ME1: 'europe',
+    JP1: 'asia',
+    KR: 'asia',
+    TW2: 'asia',
+}
