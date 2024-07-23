@@ -1,10 +1,9 @@
 import express from 'express'
-import dotenv from 'dotenv'
+import 'dotenv/config'
 import helmet from 'helmet'
 import router from './routes'
 import cors from 'cors'
 import { corsOpptions } from './lib/config/corsOptions'
-dotenv.config({ path: '../.env' })
 
 const app = express()
 const port = process.env.PORT
